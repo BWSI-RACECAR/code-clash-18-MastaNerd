@@ -33,7 +33,7 @@ class Solution:
             #type input_time: string
             #return type: string
             finalWord = ""
-            input_time.split(":")
+            input_time = input_time.split(":")
             if input_time[0] == "12":
                  finalWord += "It's twelve"
             elif input_time[0] == "23":
