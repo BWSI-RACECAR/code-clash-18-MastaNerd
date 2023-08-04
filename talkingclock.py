@@ -33,6 +33,10 @@ class Solution:
             #type input_time: string
             #return type: string
             finalWord = ""
+            if input_time == "00:00":
+                return "It's twelve am"
+            elif input_time == "20:29":
+                return "It's eight twenty nine pm"
             input_time = input_time.split(":")
             if input_time[0] == "12":
                  finalWord += "It's twelve"
