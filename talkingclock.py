@@ -62,10 +62,11 @@ class Solution:
             elif input_time[1] == "30":
                  finalWord += " thirty"
             
-            if input_time[1] >= 12:
+            if int(input_time[1]) >= 12:
                  finalWord += " pm"
             else:
                  finalWord += " am"
+            return finalWord
 def main():
      str1=input()
      tc1= Solution()
