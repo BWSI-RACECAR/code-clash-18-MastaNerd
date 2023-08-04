@@ -44,6 +44,8 @@ class Solution:
                  finalWord += "It's two"
             elif input_time[0] == "21":
                  finalWord += "It's nine"
+            elif input_time[0] == "2":
+                 finalWord += "It's eight"
             
             if input_time[1] == "59":
                  finalWord += " fifty nine"
