@@ -62,7 +62,7 @@ class Solution:
             elif input_time[1] == "30":
                  finalWord += " thirty"
             
-            if int(input_time[1]) >= 12:
+            if int(input_time[0]) >= 12:
                  finalWord += " pm"
             else:
                  finalWord += " am"
